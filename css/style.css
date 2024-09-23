@@ -25,33 +25,39 @@ body {
 
 /* class */
 
-.nav-link {
-    border: 1px solid black;
+.bold {
+    font-weight: 600;
 }
 
 .product {
-    border: 1px solid var(--iconb);
+    background-color: var(--icon);
+    border: 5px solid var(--iconb);
+    height: 150px;
+    width: 300px;
 }
 
-.section {
-    border: 1px solid orangered;
+.sec1-btn {
+    color: var(--tert);
+    background-color: var(--btn);
+    border-top: 2px solid #777;
 }
-
-.sec1-box {
-    border: 1px solid maroon;
-}
-
-.social-nav {
-    border: 1px solid yellowgreen;
-}
-
 
 /* ids */
 
-#header {
-    border: 1px solid green;
+#header, #footer {
+    background-color: var(--prim);
+    color: var(--tert);
+}
+
+#section1 {
+    color: var(--tert);
+    background-image: var(--grad);
+}
+
+#section2 {
+    border-bottom: 8px solid var(--border);
 }
 
 #topHead {
-    border: 1px solid dodgerblue;
+    font-family: var(--font);
 }
