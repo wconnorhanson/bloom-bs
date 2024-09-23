@@ -1,0 +1,57 @@
+:root {
+    --prim: #26292e;
+    --sec: #e7718b;
+    --tert: #f4f4f6;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b
+    );
+    --border: #f0d0db;
+    --btn: #2c2a2b;
+    --icon: #414141;
+    --iconb: #b8c4d4;
+    --font: "Playwrite CU", system-ui;
+}
+
+* {box-sizing: border-box;}
+
+/* tag */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* class */
+
+.nav-link {
+    border: 1px solid black;
+}
+
+.product {
+    border: 1px solid var(--iconb);
+}
+
+.section {
+    border: 1px solid orangered;
+}
+
+.sec1-box {
+    border: 1px solid maroon;
+}
+
+.social-nav {
+    border: 1px solid yellowgreen;
+}
+
+
+/* ids */
+
+#header {
+    border: 1px solid green;
+}
+
+#topHead {
+    border: 1px solid dodgerblue;
+}
